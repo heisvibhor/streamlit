@@ -18,9 +18,9 @@ st.subheader('User Input parameters')
 n1 = st.number_input("Number_1")
 n2 = st.number_input("Number_2")
 n3 = st.number_input("Number_3")
-st.write(n1)
-st.write(n2)
-st.write(n3)
+#st.write(n1)
+#st.write(n2)
+#st.write(n3)
 
 
 st.subheader('Largest of above three numbers is')
