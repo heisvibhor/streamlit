@@ -1,0 +1,20 @@
+import streamlit as st
+
+st.write("""
+# Credit Card Approval Prediction App
+
+This app predicts the credit card approval probablity
+""")
+
+st.header('User Input Parameters')
+st.subheader('User Input parameters')
+n1 = st.number_input("Number_1")
+n2 = st.number_input("Number_2")
+n3 = st.number_input("Number_3")
+st.write(n1)
+st.write(n2)
+st.write(n3)
+
+
+st.subheader('Largest of above three numbers is')
+st.write(str(max(n1,n2,n3)))
